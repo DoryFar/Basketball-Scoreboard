@@ -1,0 +1,49 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    background-image: linear-gradient(black, orangered);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.scoreBoard {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.team {
+   text-align: center; 
+   padding: 15px;
+   border: 8px double orangered;
+   margin: 0 5px;
+   background-color: black;
+}
+
+button {
+    border-radius: 12px;
+    padding: 8px 14px;
+    border: none;
+}
+
+.newGame {
+    background-color: orange;
+    align-self: center;
+    width: 250px;
+}
+
+.btn {
+    background-color: orangered;
+    color: white;
+}
